@@ -1,0 +1,8 @@
+language: java
+jdk: oraclejdk 8
+after_success: echo "Im done"
+
+notifications:
+	email:
+	- ricardo.h1996@gmail.com
+	on_success: always # default: change
